@@ -1,0 +1,57 @@
+/* Common Elements */
+
+/* "*" can be used to select everything */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+address,
+a,
+input,
+select,
+img,
+video {
+  margin-bottom: 20px;
+}
+
+a,
+input,
+select {
+  display: block;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+img,
+video,
+select,
+input {
+  width: 100%;
+}
+
+ul,
+ol {
+  padding-left: 20px;
+}
+
+@media screen and (min-width: 690px) {
+  .flex-container {
+    display: flex;
+  }
+
+  .flex-container > div {
+    flex-grow: 1;
+    flex-basis: 0;
+    margin: 0 20px;
+    /* margin: horizontal (0px) vertical (20px) */
+  }
+}
+
+/* Card */
